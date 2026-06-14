@@ -1,16 +1,16 @@
-#📦 VSIX Generator (Python CLI)
+📦 VSIX Generator (Python CLI)
 
 This project is a simple VSIX extension generator written in Python.
 
 It allows you to quickly generate a VS Code extension packaged as a .vsix file using template-based files.
 
-###🚀 Features
+🚀 Features
 Generates VS Code .vsix extensions
 Template-based system ({{placeholders}})
 CLI-driven configuration
 Auto-packages extension structure
 Easy customization via templates
-###🧰 Usage
+🧰 Usage
 
 Run the generator with:
 ```
@@ -22,7 +22,7 @@ python3 build_vsix.py
 --version 1.2.3
 --message "Hi from Google"
 ```
-###📁 Output
+📁 Output
 
 This will generate a file like: `Google.Google-1.2.3.vsix`
 
@@ -30,13 +30,13 @@ You can install it in VS Code using:
 
 Extensions → Install from VSIX
 
-###⚙️ Customization
+⚙️ Customization
 
 To change what the extension does, edit:
 
 `templates/extension.js.tpl`
 
-###📌 Default Behavior
+📌 Default Behavior
 
 The generated extension currently:
 
